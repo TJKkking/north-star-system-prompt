@@ -1,5 +1,7 @@
 # North Star System Prompt
 
+[![Validated by NLPM](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xiaolai/north-star-system-prompt/main/nlpm-badge.json)](https://github.com/xiaolai/north-star-system-prompt/blob/main/nlpm-badge.json)
+
 ![A stylized topographic survey titled "RLHF Map: Contours of Acceptable Output" — fine amber contour lines on near-black ground map the trained territory of human-preference-shaped behaviors, encircling three deliberate voids labeled Agreement, Ceiling, and Scarcity](north-star-cover.webp)
 
 A 260-token system prompt that overrides three structural presumptions every RLHF-trained instruction-tuned LLM inherits from training: that you want confirmation, that old scarcity still applies, and that best practices are ceilings.
