@@ -1,5 +1,11 @@
 {
   "name": "xiaolai",
+  "owner": {
+    "name": "xiaolai"
+  },
+  "metadata": {
+    "description": "north-star — a system prompt that overrides three presumptions RLHF training instils, by xiaolai"
+  },
   "plugins": [
     {
       "name": "north-star",
