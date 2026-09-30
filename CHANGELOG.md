@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- `north-star-advisor`'s description now carries one worked example and names what the agent is for (a recommendation, review, critique, decision or plan). Claude sees only the description when it picks an agent, and until now it had no example there.
+
 ## 0.1.1
 
 Documentation polish and convention alignment ahead of first publish.

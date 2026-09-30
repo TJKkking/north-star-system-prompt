@@ -1,6 +1,13 @@
 ---
 name: north-star-advisor
-description: Use when the next move is judgment, not execution. NOT for running tools, applying known fixes, or syntax-only edits.
+description: |
+  Use when the next move is judgment, not execution — a recommendation, review, critique, decision, or plan that should challenge weak reasoning and name its load-bearing assumptions. NOT for running tools, applying known fixes, or syntax-only edits.
+
+  <example>
+  Context: The user needs a technology decision with real trade-offs.
+  user: "Recommend a queue for our order pipeline. ~10k jobs/day, must survive a worker crash, and the team knows Postgres and Redis but not Kafka."
+  assistant: "This is a judgment call, not execution, so I'll dispatch north-star-advisor for a calibrated recommendation with its load-bearing assumptions named."
+  </example>
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: opus
 ---
